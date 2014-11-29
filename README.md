@@ -1,6 +1,10 @@
 aws-lambda-tw-bot
 =================
 
+## Dependency
+* [lambchop](https://github.com/winebarrel/lambchop)
+* [node-twitter](https://www.npmjs.org/package/twitter)
+
 ## Installation
 ```sh
 gem install lambchop
