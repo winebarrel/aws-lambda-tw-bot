@@ -4,9 +4,12 @@ aws-lambda-tw-bot
 ## Installation
 ```sh
 gem install lambchop
+
 git clone https://github.com/winebarrel/aws-lambda-tw-bot.git
 cd aws-lambda-tw-bot
+
 npm install twitter
+
 export AWS_REGION=us-east-1
 export LAMBDA_AWS_ACCESS_KEY_ID=...
 export LAMBDA_AWS_SECRET_ACCESS_KEY=...
@@ -15,10 +18,7 @@ export TWITTER_CONSUMER_KEY=...
 export TWITTER_CONSUMER_SECRET=...
 export TWITTER_ACCESS_TOKEN_KEY=...
 export TWITTER_ACCESS_TOKEN_SECRET=...
-```
 
-## Upload function
-```sh
 ./tw_bot.js
 ```
 
