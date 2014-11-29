@@ -33,3 +33,15 @@ echo '{}' | lambchop-cat tw-bot
 export AWS_REGION=us-east-1
 echo '{"stop":true}' | lambchop-cat tw-bot
 ```
+
+## Cost per transaction
+```
+REPORT RequestId: c21c578d-776f-11e4-9b88-b730c83d5e8a	Duration: 10313.95 ms	Billed Duration: 10400 ms 
+REPORT RequestId: ca238cc6-776f-11e4-a4ba-f5555f89c915	Duration: 10447.17 ms	Billed Duration: 10500 ms
+REPORT RequestId: cbb3f123-776f-11e4-9d14-b5ee9efba728	Duration: 10354.55 ms	Billed Duration: 10400 ms
+REPORT RequestId: cc1c0172-776f-11e4-99cc-fd9a3303a76b	Duration: 10353.32 ms	Billed Duration: 10400 ms
+...
+```
+
+## Demo
+* https://twitter.com/sgwr_dts_bot
